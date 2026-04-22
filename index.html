@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CEO 클-코-클 1st Meetup · 원라인에이아이</title>
+<meta name="description" content="대표자와 기획자를 위한 클로드 코드 클럽 첫 번째 오프라인 세미나 · 2026.04.27 (월) 19:00 · 디캠프 마포 4F 세미나실B">
+<meta property="og:title" content="CEO 클-코-클 1st Meetup">
+<meta property="og:description" content="대표자와 기획자를 위한 클로드 코드 클럽 · 2026.04.27 디캠프 마포">
+<meta property="og:image" content="./ccc1st.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎮%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg:#0b0c1a;
+    --panel:#14162b;
+    --accent:#5b6cff;
+    --accent-2:#f5a623;
+    --muted:#9ba3c7;
+    --text:#eef1ff;
+    --border:rgba(255,255,255,.08);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(91,108,255,.25), transparent 60%),
+      radial-gradient(900px 500px at -10% 20%, rgba(245,166,35,.12), transparent 60%),
+      var(--bg);
+    color:var(--text);
+    font-family:'Apple SD Gothic Neo','Pretendard','Malgun Gothic',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:980px;margin:0 auto;padding:48px 24px}
+  header{text-align:center;margin-bottom:48px}
+  .tag{display:inline-block;color:var(--accent);font-size:13px;letter-spacing:.2em;border:1px solid var(--accent);padding:6px 14px;border-radius:999px;margin-bottom:20px;font-weight:600}
+  h1{font-size:clamp(30px,5vw,48px);line-height:1.25;margin:0 0 12px;letter-spacing:-.02em}
+  h1 .accent{background:linear-gradient(90deg,#ffb547,#ff6b9a 50%,#5b6cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .subtitle{color:var(--muted);font-size:16px;margin:0 0 32px}
+  .hero{
+    background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,0));
+    border:1px solid var(--border);
+    border-radius:20px;
+    padding:32px;
+    margin-bottom:48px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:32px;
+    align-items:center;
+  }
+  @media (max-width:720px){ .hero{grid-template-columns:1fr;padding:20px} }
+  .poster{border-radius:14px;overflow:hidden;box-shadow:0 30px 80px -30px rgba(91,108,255,.6),0 0 0 1px var(--border)}
+  .poster img{display:block;width:100%;height:auto}
+  .meta h2{font-size:22px;margin:0 0 16px;letter-spacing:-.01em}
+  .meta .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:20px}
+  .meta .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px}
+  .meta .card .k{font-size:11px;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-bottom:6px}
+  .meta .card .v{font-weight:700;font-size:15px}
+  .meta .card .v small{display:block;color:var(--muted);font-weight:500;font-size:12px;margin-top:2px}
+  .cta{display:flex;gap:10px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:6px;padding:12px 20px;border-radius:10px;font-weight:600;font-size:14px;transition:transform .15s ease,filter .15s ease}
+  .btn:hover{transform:translateY(-1px);filter:brightness(1.1);text-decoration:none}
+  .btn-primary{background:var(--accent);color:#fff}
+  .btn-secondary{background:#1e2142;color:var(--text);border:1px solid var(--border)}
+  section{margin-bottom:56px}
+  h2.section-title{font-size:22px;margin:0 0 18px;padding-left:14px;border-left:4px solid var(--accent);letter-spacing:-.01em}
+  .notice{background:rgba(245,166,35,.1);border:1px solid rgba(245,166,35,.35);border-radius:12px;padding:16px 20px}
+  .notice b{color:var(--accent-2)}
+  table.tt{width:100%;border-collapse:collapse;background:var(--panel);border-radius:14px;overflow:hidden;border:1px solid var(--border)}
+  table.tt td{padding:16px 18px;border-bottom:1px solid var(--border);vertical-align:top}
+  table.tt tr:last-child td{border-bottom:none}
+  table.tt td:first-child{font-weight:700;color:var(--accent);white-space:nowrap;width:140px}
+  table.tt .speaker{color:var(--muted);font-size:13px;margin-top:2px}
+  .intro{color:var(--muted);font-size:16px;max-width:720px}
+  .intro b{color:var(--text)}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:40px 0 20px;border-top:1px solid var(--border);margin-top:40px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="tag">FOR CEOs &amp; PLANNERS · 1st MEETUP</div>
+    <h1>CEO <span class="accent">클-코-클</span></h1>
+    <p class="subtitle">대표자와 기획자를 위한 클로드 코드 클럽 첫 번째 오프라인 세미나</p>
+  </header>
+
+  <div class="hero">
+    <div class="poster">
+      <img src="./ccc1st.png" alt="CEO 클-코-클 1st Meetup 포스터">
+    </div>
+    <div class="meta">
+      <h2>한 눈에 보기</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="k">Date</div>
+          <div class="v">4.27 <small>월요일</small></div>
+        </div>
+        <div class="card">
+          <div class="k">Place</div>
+          <div class="v">디캠프 마포 <small>4F 세미나실B</small></div>
+        </div>
+        <div class="card">
+          <div class="k">Fee</div>
+          <div class="v">FREE <small>참가비 무료</small></div>
+        </div>
+      </div>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://taapspace.kr/front/space/visitor/contracts/3893193301" target="_blank" rel="noopener">출입 QR 열기 →</a>
+        <a class="btn btn-secondary" href="https://forms.gle/CrPABvdpLzX8BqNd6" target="_blank" rel="noopener">Beer Night 응답 →</a>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2 class="section-title">이번 세션은?</h2>
+    <p class="intro">
+      AI로 일하는 방식을 바꾸는 <b>대표님·기획자님</b>들이 한 자리에 모여,
+      서로의 경험을 나누고 <b>AI Native 팀</b>을 만들어가는 시간입니다.
+      클로드 코드 아직 잘 몰라도 괜찮습니다. 이미 잘 쓰고 계시다면 경험을 나눠주세요.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">유의 사항</h2>
+    <div class="notice">
+      예상보다 많은 분들이 신청해주셔서 대관 장소를 변경하게 되었습니다.
+      그럼에도 여전히 자리가 협소한 부분이 있어 <b>양해 부탁드립니다</b>. 🙏
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Time Table</h2>
+    <table class="tt">
+      <tr>
+        <td>19:00 – 19:10</td>
+        <td>오프닝 및 행사 소개</td>
+      </tr>
+      <tr>
+        <td>19:10 – 19:30</td>
+        <td>
+          <b>Paradigm Shift</b> — 100만개 문서를 처리하는 100만개 솔루션 개발하기
+          <div class="speaker">정한얼, 원라인에이아이 CEO</div>
+        </td>
+      </tr>
+      <tr>
+        <td>19:30 – 20:00</td>
+        <td>
+          <b>Second Wave</b> — 지식 저장소와 하네스 엔지니어링
+          <div class="speaker">전현준, 원라인에이아이 CTO</div>
+        </td>
+      </tr>
+      <tr>
+        <td>20:00 – 20:30</td>
+        <td>
+          <b>Real Impact</b> — 실제 사례 공유
+          <div class="speaker">연사 미정</div>
+        </td>
+      </tr>
+      <tr>
+        <td>20:30 ~</td>
+        <td><b>Beer Night ~!</b></td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2 class="section-title">입장 안내</h2>
+    <p class="intro">
+      행사 당일 디캠프 건물 출입 시 아래 QR을 사용해주세요.
+      별도 등록 없이 링크에서 QR을 열어 <b>입구에 스캔</b>하시면 됩니다.
+    </p>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://taapspace.kr/front/space/visitor/contracts/3893193301" target="_blank" rel="noopener">출입 QR 열기 →</a>
+    </div>
+  </section>
+
+  <footer>
+    Hosted by <a href="https://www.onelineai.com" target="_blank" rel="noopener"><b>원라인에이아이</b></a>
+    · 공간 후원 d·camp
+    · 문의 <a href="mailto:earl@onelineai.com">earl@onelineai.com</a>
+  </footer>
+
+</div>
+</body>
+</html>
