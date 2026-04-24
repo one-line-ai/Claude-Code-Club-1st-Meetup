@@ -83,8 +83,13 @@
   table.tt tr:last-child td{border-bottom:none}
   table.tt td:first-child{font-weight:700;color:var(--accent);white-space:nowrap;width:140px}
   table.tt .speaker{color:var(--muted);font-size:13px;margin-top:2px}
-  .intro{color:var(--muted);font-size:16px;max-width:720px}
+  .intro{color:var(--muted);font-size:16px;max-width:760px}
   .intro b{color:var(--text)}
+  .intro + .intro{margin-top:14px}
+  .intro.lead{font-size:17px;color:var(--text)}
+  .intro.closing{color:var(--text);font-weight:600}
+  .divider{border:none;border-top:1px dashed var(--border);margin:28px 0;max-width:760px}
+  .callout{font-size:clamp(22px,3vw,26px);margin:4px 0 16px;letter-spacing:-.01em;background:linear-gradient(90deg,#ffb547,#ff6b9a 60%,#5b6cff);-webkit-background-clip:text;background-clip:text;color:transparent;display:inline-block;font-weight:800}
   footer{text-align:center;color:var(--muted);font-size:13px;padding:40px 0 20px;border-top:1px solid var(--border);margin-top:40px}
   footer a{color:var(--muted)}
 </style>
@@ -133,10 +138,35 @@
 
   <section>
     <h2 class="section-title">이번 세션은?</h2>
+    <p class="intro lead">
+      AI로 일하는 방식을 바꾸는 <b>대표들의 모임</b>, 첫번째 <b>CEO 클코클 (CEO 클로드 코드 클럽)</b>에 여러분을 초대합니다.<br>
+      이 거대한 <b>AI FOMO 시대</b>에서 가장 날카로운 <b>AI Native 팀</b>을 만들기 원하시는 모든 분들을 환영합니다.
+    </p>
+
+    <hr class="divider">
+
+    <h3 class="callout">클로드 코드, 배워야 합니다!</h3>
     <p class="intro">
-      AI로 일하는 방식을 바꾸는 <b>대표님·기획자님</b>들이 한 자리에 모여,
-      서로의 경험을 나누고 <b>AI Native 팀</b>을 만들어가는 시간입니다.
-      클로드 코드 아직 잘 몰라도 괜찮습니다. 이미 잘 쓰고 계시다면 경험을 나눠주세요.
+      개발자의 이야기가 아닙니다. AI Native 팀을 만들기 위해서는
+      <b>대표님이, 기획자가 그 누구보다 클로드 코드를 깊이 사용</b>하고 있어야 합니다.
+      하지만 개발자의 접근과 대표·기획자의 접근은 다를 수밖에 없죠.
+    </p>
+    <p class="intro">
+      클로드 코드를 어떻게 활용할 수 있을지, 다른 사람들은 어떻게 쓰고 있는지 궁금하지만
+      너무 어려운 용어들과 어딘지 모르게 느껴지는 진입장벽으로 개발자 클로드 코드 모임에 쉽게 다가가기 어려우셨다면,
+      여기, <b>대표자·기획자들만을 위한 클로드 코드 모임</b>이 있습니다!
+    </p>
+    <p class="intro">
+      이번 첫번째 CEO 클코클에서는 <b>패스트캠퍼스 AI 에이전트 분야 No.1 강사</b>를 모시고
+      클로드 코드가 변화시키는 AI Native 팀에 대한 인사이트를 나눌 예정입니다.
+      또 평소 궁금하셨던 내용, 사례 공유 원하시면 자유롭게 의견을 남겨주세요!
+    </p>
+    <p class="intro">
+      클로드 코드 아예 못 쓰고 계셔도 괜찮습니다.
+      이미 잘 쓰고 계시다면 경험담을 나눠주세요!
+    </p>
+    <p class="intro closing">
+      이제는 거스를 수 없는 거대한 흐름에서 <b>단단한 커뮤니티</b>를 만들어가실 분들은 누구나 환영입니다!
     </p>
   </section>
 
